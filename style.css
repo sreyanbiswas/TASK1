@@ -1,0 +1,43 @@
+body {
+  background:#373c56;
+}
+input[type=text] { 
+    width: 100%;
+         padding: 12px 20px;
+              margin: 8px 0; 
+                  display: inline-block;   
+                    border: 1px solid #ccc;   
+                      border-radius: 4px; 
+                       font-family:Lucida Handwriting;  
+                          font-size:20px; 
+                           color:pink; 
+                               box-sizing: border-box; } 
+ 
+button {  
+   width: 100%;  
+      background-color: pink;   
+        color: white;   
+          padding: 12px 20px;  
+          display:inline-block; 
+              margin: 8px 0;  
+                 border: none;  
+                    border-radius: 4px;   
+                      font-family:Lucida Handwriting; 
+                          font-size:30px; 
+                           color:deep pink; } 
+                           h1{  color:pink; } 
+                           input[type=button]:hover {   
+                             background-color: deep pink; } 
+div {  margin: auto; 
+ width: 50%;  
+    padding: 10px; 
+    } 
+    p{ 
+     font-family:Lucida Handwriting;    
+      font-size:20px; 
+       color:pink; }
+        .d2 {   display :none; 
+          width: 50%;  
+           margin: auto;   
+              padding: 10px; 
+                background-color:black; } 
