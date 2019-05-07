@@ -1,0 +1,40 @@
+<html> 
+<head>     
+	<title>String Definer</title>  
+    <link rel="stylesheet" type="text/css" href="style.css" /> 
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>  
+	<script>   
+	$(document).ready(function(){    
+	$("button").click(function(){     
+	var e = $("#s1").val();
+	var c1 = 0;
+	var c3 = 0;
+	var c = 0;
+	var c2 = 0;
+	e = e.toUpperCase();
+	var l = e.length;
+	var re = /[AEIOU]/gi;
+	var s = e.match(re);
+	c = s.length;
+	var re2 = /[\W+]/g;
+	var s2 = e.match(re2);
+	c3 = s2.length;
+	c1 = l-c-c3;
+ $("#s2").val(c) ;
+ $("#s3").val(c1);
+ $("#s4").val(c3);
+   }); 
+   });
+    </script> 
+</head>
+ <body >   
+   <div>   
+         <center><h1>STRING PROPERTIES DEFINER</h1>  
+                     <input type ="text" id ="s1" placeholder="YOUR NAME" ><br>        
+                           <input type ="text" id ="s2" placeholder="VOWELS" ><br>
+                           <input type ="text" id ="s3" placeholder="CONSONANTS" ><br> 
+                           <input type ="text" id ="s4" placeholder="NON WORD CHARACTER" ><br>    
+                                 <button>COUNT</button>  </div>    
+                                    </body>
+                                     </html> 
+ 
